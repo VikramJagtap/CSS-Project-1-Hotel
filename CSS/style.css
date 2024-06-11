@@ -1,0 +1,493 @@
+* {
+  /* font-size: 16px; */
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  list-style: none;
+}
+
+.parent {
+  /* background-color: black; */
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/big_image_1.jpg.webp);
+  width: 100%;
+  height: 500px;
+}
+
+.head {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border: 1px solid #453c32;
+}
+.menu{
+  font-size: 30px;
+}
+.head p {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+
+.parent2 {
+  /* display: flex; */
+  /* align-items: center; */
+  margin: 0 auto;
+}
+
+.head input {
+  /* padding: 10px 30px; */
+  color: white;
+  background: #b99365;
+  border: 0;
+}
+
+.child1 {
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+  word-spacing: 3px;
+}
+
+.child1 p {
+  margin-top: 6px;
+  font-size: 20px;
+}
+
+.child1 button {
+  padding: 10px 30px;
+  color: white;
+  background: #b99365;
+  border: 0;
+  margin-top: 10px;
+}
+
+.list {
+  display: none;
+}
+
+.div2 {
+  text-align: center;
+}
+
+.div2 p {
+  font-size: 20px;
+  word-spacing: 2px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.div21 {
+  padding-bottom: 50px;
+}
+
+.button {
+  text-decoration: none;
+  /* border: solid black 1px; */
+  background-color: #b99365;
+  padding: 10px;
+  color: white;
+}
+
+.text13 {
+  padding-top: 20px;
+
+}
+
+.text12 {
+  padding-bottom: 15px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.text1 {
+  padding: 5px;
+}
+
+
+.div2 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.div2 button {
+  color:#b99365 ;
+  padding: 10px 30px;
+}
+
+.div2 image {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* .div3{
+    text-align: center;
+    /* padding-top: 30px; */
+/* font-family: 'Playfair Display', serif; */
+/* font-size: 40px; */
+/* border: solid black; */
+/* margin-bottom: 10px; */
+/* } */
+
+
+.div31 {
+  color: gray;
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Playfair Display', serif;
+  /* border: solid black; */
+}
+
+.div33 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.sub31 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.img3 {
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.fig12 h1 {
+  font-family: 'Playfair Display', serif;
+  color: #B99365;
+  font-size: 30px;
+}
+
+.sub33 {
+  display: flex;
+  color: gray;
+  gap: 5px;
+  justify-content: flex-start;
+  font-size: 20px;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+
+.sub34 {
+  /* border: 1px solid black; */
+  padding: 5px;
+  color: gray;
+
+}
+
+.sub3 {
+  border: 1px solid #00000050;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+
+.button1 {
+  text-decoration: none;
+  /* border: solid black 1px; */
+  background-color: #B99365;
+  padding: 5px;
+  color: white;
+}
+
+.img4 {
+  margin: 0 auto;
+  width: 100%;
+  display: none;
+}
+
+.img5 {
+  margin: 0 auto;
+  width: 100%;
+  display: none;
+}
+
+.sub35 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  /* border: 1px solid black; */
+  gap: 10px;
+
+}
+
+.div4 {
+  margin: 50px 0;
+  background-image: url(../images/illustration/img_5.jpg.webp);
+  text-align: center;
+  padding: 50px;
+
+}
+
+.div4 h2 {
+  font-size: 40px;
+  color: #fff;
+  margin: 50px 50px;
+}
+
+.div4 p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.img6 {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.sec-5 {
+  margin: 20px;
+}
+
+.div5 {
+  text-align: center;
+}
+
+.div5 h1 {
+  font-size: 40px;
+}
+
+.sub51 {
+  margin: 50px 0;
+}
+
+.sub51 h1 {
+  color: #B99365;
+}
+
+.sub51 p {
+  font-size: 20px;
+  color: #00000050;
+}
+
+
+
+.button2 {
+  text-decoration: none;
+  /* border: solid black 1px; */
+  background-color: transparent;
+  padding: 5px 15px;
+  color: #B99365;
+  border: 2px solid #B99365;
+}
+/* section 6 start  */
+
+.pd61 {
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.div6 {
+  margin-top: 30px;
+  background: #f8f9fa;
+}
+
+.pd62 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+
+}
+
+.foot1 {
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+
+.foot2 {
+  padding: 0 15px;
+}
+
+.foot3 {
+
+  padding: 0 15px;
+}
+
+.foot3 input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.last {
+  text-align: center;
+}
+
+.div6 {
+  background-color: #F2F2F2;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .parent {
+    width: auto;
+  }
+
+  .list {
+    display: block;
+    display: flex;
+    width: 80%;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    gap: 5px;
+    /* border: solid black 1px ; */
+    align-self: flex-start;
+  }
+
+  .list a {
+    text-decoration: none;
+    color: azure;
+    font: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .div2 {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .div21 {
+    width: 50%;
+    padding: 30px;
+  }
+
+  .stay_img {
+    width: 100%;
+    /* height: 500px; */
+    /* height: 100%; */
+  }
+
+  .img4 {
+    display: block;
+  }
+
+  .img5 {
+    display: block;
+  }
+
+  .sub {
+    display: flex;
+  }
+
+  .sub35 {
+    /* margin: 100px 450px; */
+    display: inline-block;
+    margin: auto 0;
+  }
+
+  .button1 {
+    margin: 20px;
+  }
+
+  .div4 {
+    padding: 100px;
+  }
+
+  .sub51 {
+    margin: 0 20px;
+  }
+
+  .sub51 p,h1 {
+    padding: 0 20px;
+  }
+
+  .sub51 p {
+    padding-bottom: 20px;
+  }
+
+  .button2 {
+    margin-left: 20px;
+  }
+
+  .sec-5 {
+    padding-bottom: 100px;
+  }
+
+
+  .testimonials {
+    display: flex;
+  }
+
+
+  .div6 {
+    display: flex;
+  }
+
+  .div6 {
+    padding: 50px 300px;
+  }
+
+  .last {
+    margin: 20px 20px;
+  }
+
+
+}
+
+
+
+@media (min-width : 992px) {
+
+  .child1 h1 {
+    font-size: 60px;
+  }
+
+  .child1 p {
+    font-size: 30px;
+  }
+
+  .sec-2 {
+    padding: 50px 300px;
+  }
+
+  .div3 {
+    padding: 50px 300px;
+  }
+
+  .sec-5 {
+    padding: 50px 100px;
+  }
+
+  .sub51 {
+    width: 30%;
+  }
+
+  .foot1 {
+    width: 30%;
+  }
+
+}
